@@ -1,0 +1,65 @@
+body{
+	margin: 0px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: solid 2px red;
+	border-right: solid 2px red;
+	width: 400px;
+	text-align: center;
+	box-shadow: 8px 8px 10px #888888;
+	margin: 60px;
+	margin-left: 150px;
+}
+
+.one{
+	display: flex;
+}
+.two{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.three{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+h2{
+	margin: 20px;
+}
+img{
+	margin: 10px;
+	transition: all 1s;
+
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+.falilou{
+	display: block;
+	margin-right: auto;
+	margin-left: 450px;
+	border-radius: 50%;
+}
+
+.imtihal{
+	display: block;
+	margin-left: auto;
+	margin-right: 450px;
+	border-radius: 50%;
+}
